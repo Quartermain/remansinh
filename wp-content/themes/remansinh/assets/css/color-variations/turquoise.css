@@ -1,0 +1,75 @@
+.navbar-default.style1 .navbar-nav > .open > a, .navbar-default.style1 .navbar-nav > .open > a:hover, .navbar-default.style1 .navbar-nav > .open > a:focus{color: #fff;}
+a, .pageXofY .pageX, .pricing .bestprice .name, .filter li a:hover, .widget ul li a:hover, #contacts a:hover, .title-color, .ms-staff-carousel .ms-staff-info h4, .filter li a:hover, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, a.go-about:hover, .text_color, .navbar-nav .dropdown-menu a:hover, .profile .profile-name, #elements h4, #contact li a:hover, #agency-slider h5,.widget_nav_menu li a:hover, .ms-showcase1 .product-tt h3, .filter li a.active, .contacts li i, .big-icon i, .navbar-default.dark .navbar-brand:hover,.navbar-default.dark .navbar-brand:focus, a.p-button.border:hover, .navbar-default.default .navbar-nav > li > a.selected, .navbar-default.default .navbar-nav > li > a.selected:hover, .navbar-default.default .navbar-nav > li > a.selected, .navbar-default.default .navbar-nav > .open > a,.navbar-default.default .navbar-nav > .open > a:hover, .navbar-default.default .navbar-nav > .open > a:focus, .default .dropdown-menu > li > a:hover, .default .dropdown-menu > li > a:focus, .navbar-default.dark.default .dropdown-menu > li > a:hover, a.social:hover:before, .symbol.colored i, .icon-nofill, .slidecontent-bi .project-title-bi p a:hover, .grid .figcaption a.thumb-link:hover, .tp-caption a:hover, .btn-1d:hover, .btn-1d:active, #contacts .tweet_text a, #contacts .tweet_time a, .social-font-awesome li a:hover, h2.post-title a:hover, .tags a:hover, .category a:hover, .btn-color span, #contacts .form-success p, .center-icon i, .cbp-l-filters-alignCenter .cbp-filter-item-active, .social-icomoon a:hover, .team-details .team-position, .blog-nav a:hover, a:hover .text-inner, .cbp-l-filters-alignCenter .cbp-filter-item:hover, .btn-color{
+  color: #1abc9c;
+}
+
+a.sf-button.hide-icon, .tabs li.current, .readmore:hover, .navbar-default .navbar-nav > .open > a,.navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus, a.p-button:hover, a.p-button.colored, .navbar-default.style1 .navbar-nav > li > a.selected, .light #contacts a.p-button, .tagcloud a:hover, .rounded.fill, .colored-section, .pricing .bestprice .price, .pricing .bestprice .signup, .signup:hover, .divider.colored, .services-graph li span, .no-touch .hi-icon-effect-1a .hi-icon:hover, .hi-icon-effect-1b .hi-icon:hover, .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .no-touch .hi-icon-effect-1b .hi-icon:hover, .symbol.colored .line-left, .symbol.colored .line-right, .projects-overlay #projects-loader, .panel-group .panel.active .panel-heading, .mail-box, .double-bounce1, .double-bounce2, .btn-color-1d:after, .container1 > div, .container2 > div, .container3 > div, .cbp-l-caption-buttonLeft:hover, .cbp-l-caption-buttonRight:hover, .btn-color:hover, .collapse-group .collapse-heading h4 a:hover .toggle-icon, .collapse-group .collapse-heading h4 a .toggle-icon, .hi-icon-effect-1 .hi-icon, .post-type, .blog-nav span, #back-top a:hover, .btn-color-fill{
+	background-color:#1abc9c;
+}
+.btn-color-fill:hover{
+	background-color: #11B393;
+}
+
+/* Woocommerce */
+.woocommerce span.onsale,.woocommerce-page span.onsale, .woocommerce .widget_price_filter .ui-slider .ui-slider-range, .woocommerce-page .widget_price_filter .ui-slider .ui-slider-range, .woocommerce #content input.button:hover, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce-page #content input.button:hover, .woocommerce-page #respond input#submit:hover, .woocommerce-page a.button:hover, .woocommerce-page button.button:hover, .woocommerce-page input.button:hover, .woocommerce #content input.button.alt:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, .woocommerce-page #content input.button.alt:hover, .woocommerce-page #respond input#submit.alt:hover, .woocommerce-page a.button.alt:hover, .woocommerce-page button.button.alt:hover, .woocommerce-page input.button.alt:hover{
+	background: #1abc9c !important;
+}
+.woocommerce ul.products li.product .price, .woocommerce-page ul.products li.product .price{
+  color: #1abc9c;
+}
+.woocommerce span.onsale,.woocommerce-page span.onsale, .woocommerce .widget_price_filter .ui-slider .ui-slider-range, .woocommerce-page .widget_price_filter .ui-slider .ui-slider-range, .woocommerce #content input.button:hover, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce-page #content input.button:hover, .woocommerce-page #respond input#submit:hover, .woocommerce-page a.button:hover, .woocommerce-page button.button:hover, .woocommerce-page input.button:hover, .woocommerce #content input.button.alt:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, .woocommerce-page #content input.button.alt:hover, .woocommerce-page #respond input#submit.alt:hover, .woocommerce-page a.button.alt:hover, .woocommerce-page button.button.alt:hover, .woocommerce-page input.button.alt:hover{border: 1px solid #10B191 !important;}
+
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle, .woocommerce-page .widget_price_filter .ui-slider .ui-slider-handle{background: #0db291; border: 1px solid #0db291;}
+
+
+
+.blog-nav span, .blog-nav a:hover{border: 1px solid #1abc9c;}
+.hi-icon-effect-1 .hi-icon:after{box-shadow: 0 0 0 1px #1abc9c;}
+.colored-section:after {border: 20px solid #1abc9c;}
+.filter li a.active, .filter li a:hover, .panel-group .panel.active .panel-heading{border:1px solid #1abc9c}
+a.p-button.colored:hover{background-color: #2586c7;}
+.navbar-default.default.border .navbar-nav > li > a.selected:before, .navbar-default.default.border .navbar-nav > li > a.selected:hover, .navbar-default.default.border .navbar-nav > li > a.selected{
+	border-bottom: 1px solid #1abc9c;
+}
+.bs-callout-theme-color {
+	background-color: #d3ecfd;
+	border-color: #1abc9c;
+}
+.overlay-color, #featured-projects .cbp-caption:hover .cbp-caption-activeWrap, .cbp-caption-zoom .cbp-caption-activeWrap{
+	background-color: rgba(26,188,156, 0.9);
+}
+.overlay-color.medium, .cbp-caption-minimal .cbp-caption-activeWrap, .skill-bar-percent, .post-content .featured-image a:hover .hover-image-blog{	background-color: rgba(26,188,156, 0.80);
+}
+.triangle{border-left-color: #1abc9c !important;}
+.overlay-color.soft{
+	background-color: rgba(26,188,156, 0.25);
+}
+.cbp-l-filters-alignCenter .cbp-filter-counter{
+	background: none repeat scroll 0 0 #1abc9c;
+	border: 1px solid #1abc9c;
+}
+.cbp-l-filters-alignCenter .cbp-filter-counter:before{
+	border-top: 4px solid #1abc9c;
+}
+.btn-color, a:hover .text-inner{
+	border: 1px solid #1abc9c;
+}
+.appdesign .app-service:hover .icon-container .icon {
+    background: #1abc9c;
+    color: #ffffff;  
+}
+.appdesign .app-service .icon-container .icon {
+    border: 1px solid #1abc9c;
+    color: #1abc9c;
+}
+.navbar-default .navbar-nav > li:hover > a::before, .navbar-default .navbar-nav > li.active > a::before {
+border-bottom-color: #1abc9c;
+}
+.less-top{
+	position: relative !important; top: -12px !important; color: #1abc9c; font-weight: 400;
+}
+
+#ajax-div #loader, .loading-css, .cbp-loading, .cbp-popup-loadingBox, .nivo-lightbox-theme-default .nivo-lightbox-content.nivo-lightbox-loading{
+	border-right: 3px solid #1abc9c;
+	border-top: 3px solid #1abc9c;
+}

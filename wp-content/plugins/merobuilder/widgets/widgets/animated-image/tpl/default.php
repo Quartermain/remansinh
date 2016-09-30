@@ -1,0 +1,1 @@
+<img src="<?php echo esc_url($instance['image']) ?>" class="<?php if(!empty($instance['animation']) && $instance['animation']!='none') : echo 'animated '.$instance['animation']; endif; ?>" alt="" />

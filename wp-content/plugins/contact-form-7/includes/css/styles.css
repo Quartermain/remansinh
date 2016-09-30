@@ -1,0 +1,341 @@
+div.wpcf7 {
+	margin: 0;
+	padding: 0;
+}
+
+div.wpcf7-response-output {
+	margin: 2em 0.5em 1em;
+	padding: 0.2em 1em;
+}
+
+div.wpcf7 .screen-reader-response {
+	position: absolute;
+	overflow: hidden;
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px;
+	width: 1px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+div.wpcf7-mail-sent-ok {
+	border: 2px solid #398f14;
+}
+
+div.wpcf7-mail-sent-ng {
+	border: 2px solid #ff0000;
+}
+
+div.wpcf7-spam-blocked {
+	border: 2px solid #ffa500;
+}
+
+div.wpcf7-validation-errors {
+	border: 2px solid #f7e700;
+}
+
+span.wpcf7-form-control-wrap {
+	position: relative;
+	width: 100%;
+}
+
+span.wpcf7-not-valid-tip {
+	color: #f00;
+	font-size: 1em;
+	display: block;
+}
+
+.use-floating-validation-tip span.wpcf7-not-valid-tip { 
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	z-index: 100;
+	border: 1px solid #ff0000;
+	background: #fff;
+	padding: .2em .8em;
+}
+
+span.wpcf7-list-item {
+	margin-left: 0.5em;
+}
+
+.wpcf7-display-none {
+	display: none;
+}
+
+div.wpcf7 img.ajax-loader {
+	border: none;
+	vertical-align: middle;
+	margin-left: 4px;
+}
+
+div.wpcf7 div.ajax-error {
+	display: none;
+}
+
+div.wpcf7 .placeheld {
+	color: #888;
+}
+
+
+/***************************************************************
+					CONTACT FORM
+***************************************************************/
+.wpcf7{position: relative;}
+
+
+/* Simple Style */
+.wpcf7 .elano-form-simple .f-name, .wpcf7 .elano-form-simple .f-subject, .wpcf7 .elano-form-simple .f-email {
+	width: 32%;
+	position: relative;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.wpcf7 .elano-form-simple .f-subject{
+	margin-right: 0px;
+}
+.wpcf7 .elano-form-simple .f-message {
+	position: relative;
+	float: left;
+	width: 99%;
+}
+
+
+/* Simple Style */
+.wpcf7 .elano-form-simple-captcha .f-name, .wpcf7 .elano-form-simple-captcha .f-subject, .wpcf7 .elano-form-simple-captcha .f-email {
+	width: 32%;
+	position: relative;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.wpcf7 .elano-form-simple-captcha .f-subject{
+	margin-right: 0px;
+}
+.wpcf7 .elano-form-simple-captcha .f-message{
+	position: relative;
+	float: left;
+	width: 65.2%;
+}
+.wpcf7 .elano-form-simple-captcha .f-captcha {
+	position: relative;
+	float: left;
+	width: 32.2%;
+	margin-left: 15px;
+	top: 0;
+}
+.wpcf7 .elano-form-simple-captcha .f-captcha .f-captcha-insert img{
+	margin: 4px 0;
+}
+
+.vc_span8.column_container .wpcf7 .elano-form-simple-captcha .f-name, .vc_span8.column_container .wpcf7 .elano-form-simple-captcha .f-subject, .vc_span8.column_container .wpcf7 .elano-form-simple-captcha .f-email, .vc_span8.column_container .wpcf7 .elano-form-simple .f-name, .vc_span8.column_container .wpcf7 .elano-form-simple .f-subject, .vc_span8.column_container .wpcf7 .elano-form-simple .f-email{
+	width: 32.4%;
+}
+
+
+/* Simple Wide */
+.wpcf7 .elano-form-simple-wide .f-name, .wpcf7 .elano-form-simple-wide .f-subject, .wpcf7 .elano-form-simple-wide .f-email {
+	width: 100%;
+	position: relative;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.wpcf7 .elano-form-simple-wide .f-message {
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+
+/* Simple Wide + Captcha */
+.wpcf7 .elano-form-simple-wide-captcha .f-name, .wpcf7 .elano-form-simple-wide-captcha .f-subject, .wpcf7 .elano-form-simple-wide-captcha .f-email, .wpcf7 .elano-form-simple-wide-captcha .f-message{
+	width: 100%;
+	position: relative;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.wpcf7 .elano-form-simple-wide-captcha .f-captcha {
+	position: relative;
+	width: 100%;
+	float: left;
+	top: 10px;
+	margin-bottom: 20px;
+}
+.wpcf7 .elano-form-simple-wide-captcha .f-captcha .f-captcha-insert img{
+	margin: 0;
+}
+
+.wpcf7 .elano-form-simple-wide-captcha .f-captcha-insert, .wpcf7 .elano-form-simple-wide-captcha .f-captcha-CONFIRM{
+	float: left;
+	width: 50%;	
+}
+.wpcf7 .elano-form-simple-wide-captcha .f-captcha-insert{
+	position: relative;
+	top: 0;
+}
+
+/*
+.wpcf7 .f-name input, .wpcf7 .f-subject input, .wpcf7 .f-email input, .wpcf7 .f-message textarea, .wpcf7 .f-captcha p, .wpcf7 .f-captcha input{
+	color: #333 !important;
+	font-size: 12px !important;
+	font-weight: normal;
+	letter-spacing: 1px;
+
+}
+*/
+
+.elano-form-simple-captcha .f-captcha-insert p{
+	margin-bottom: 4px;
+}
+
+
+.wpcf7 .f-subject{
+	margin-right: 0;
+}
+textarea{max-width: 100%;}
+
+.wpcf7{width: 100%;}
+.wpcf7 li{list-style-type: none;margin: 10px 0;}
+.wpcf7 .f-service select{
+	background: transparent;
+	border: none;
+	-webkit-appearance: none;
+	border: 1px solid #e5e5e5;
+	width: 100%;
+	padding: 14px 15px;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+	outline: none;
+	margin-top: 10px;
+	background: #fff url(../images/sprite.png) -350px -137px;
+	border-radius: 0;
+	text-transform: uppercase;
+	font-family: "Helvetica Neue", "Arial", sans-serif;
+}
+.wpcf7 label{ 
+	text-align: left;
+	position: relative;
+	float: left;
+	left: 0; 
+	width: 95%; 
+	color: #dcdcdc;
+	padding-bottom: 4px;
+	font-weight: 100;
+	color: #fff;
+}
+.wpcf7 input {
+	position: relative;
+	float: left;
+	width: 100%;
+	padding: 10px;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	outline: none;
+	background: #fff;
+	border: 1px solid #e5e5e5;
+	margin: 5px 0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.wpcf7 textarea{
+	position: relative;
+	float: left;
+	width: 100%;
+	padding: 10px;
+	font-family: "Helvetica Neue", "Arial", sans-serif;
+	outline: none;
+	height: 110px;
+	background: transparent; 
+	border: 1px solid #e5e5e5;
+	margin-bottom: 10px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.wpcf7 .elano-form-simple-wide textarea, .wpcf7 .elano-form-simple-wide-captcha textarea{
+	margin: 5px 0;
+}
+.wpcf7 input:focus,.wpcf7 textarea:focus {
+	outline: none;
+	border: 1px solid #ccc !important;
+	background: #fff;
+}
+.wpcf7 .bt-contact input:focus{
+	border: none !important;
+}
+.wpcf7 li i{width: 30px;position: relative;}
+
+.bt-contact {
+	display: inline-block;
+	width: 100%;
+}
+.bt-contact input{
+	padding: 0;
+	border: none;
+	margin: 0;
+	background: transparent !important;
+}
+
+.bt-contact .btn-color{
+	background-color: transparent;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	font-weight: normal;
+	letter-spacing: 1px;
+	font-size: 12px;
+}
+
+.bt-contact .btn-color:hover{color: #fff !important;}
+div.wpcf7 img.ajax-loader {
+	position: absolute;
+	right: -30px;
+}
+
+
+/* Error & Sucess */
+span.wpcf7-not-valid-tip {
+	color: #E97C7C !important;
+	font-size: 0.9em !important;
+}
+div.wpcf7-validation-errors{
+	display: none !important;
+}
+div.wpcf7-mail-sent-ok {
+	background: transparent;
+	color: #99D36C;
+	width: 100%;
+	display: table-cell !important;
+	margin: 0 auto;
+	text-align: left;
+	position: absolute;
+	top: -30px;
+	border: none !important;
+	left: -13px;
+	font-size: 12px;
+}
+.wpcf7 input::-webkit-input-placeholder, .wpcf7 textarea::-webkit-input-placeholder {}
+.wpcf7 input::-moz-placeholder, .wpcf7 textarea::-moz-placeholder {opacity: 1;}
+.wpcf7 input:-moz-placeholder, .wpcf7 textarea:-moz-placeholder {opacity: 1;}
+
+.div.wpcf7-mail-sent-ok{
+	
+}
+
+.widgettitle {
+	color: #333 !important;
+	margin-top: 20px !important;
+	margin-bottom: 10px !important;
+	font-size: 16px !important;
+	line-height: 1.5 !important;
+	text-transform: none !important;
+	font-weight: 600 !important;
+}
+
