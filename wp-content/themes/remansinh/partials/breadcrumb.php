@@ -23,12 +23,12 @@ global $elano_options;
             <h2>&#8216;<?php single_tag_title(); ?>&#8217;<?php _e('', 'elano'); ?></h2>
             <?php elseif (is_archive()) : ?>
             <?php if (get_post_type() == 'product') : ?>
-            <h2><?php _e('SHOP', 'elano'); ?></h2>
+            <h2><?php _e('Sản Phẩm', 'elano'); ?></h2>
             <?php else: ?>
             <h2><?php _e('ARCHIVE', 'elano'); ?></h2>
             <?php endif; ?>
             <?php elseif (get_post_type() == 'product') : ?>
-            <h2><?php _e('SHOP', 'elano'); ?></h2>
+            <h2><?php _e('Sản Phẩm', 'elano'); ?></h2>
             <?php endif; ?>
             </h2>
         </div>
