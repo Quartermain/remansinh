@@ -5,8 +5,15 @@ if (!defined('ABSPATH')) {echo '<h1>Forbidden</h1>'; exit();} get_header(); ?>
 <section id="blog-normal" class="light-section nopaddingbottom blog-normal">
             
             <!-- BEGIN BLOG WIDTH | OPTION: "big", "medium" container -->
-            <div class="container"> 
-                
+            <div class="container">
+
+                <!-- START SIDEBAR -->
+                <div class="col-xs-12 col-sm-12 col-md-4 ">
+
+                    <?php get_sidebar(); ?>
+
+                </div>
+
                 <!-- BEGIN BLOG POSTS -->       
                 <div class="journal col-xs-12 col-sm-12 col-md-8">
                      <?php if (have_posts()) : ?>
@@ -34,14 +41,7 @@ if (!defined('ABSPATH')) {echo '<h1>Forbidden</h1>'; exit();} get_header(); ?>
   
                 </div>
                 <!-- END journal -->
-                
-                <!-- START SIDEBAR -->
-                <div class="col-xs-12 col-sm-12 col-md-4 ">
-                    
-                <?php get_sidebar(); ?>
-                   
-                </div>
-                
+
         
             </div>  
             <!-- END: BLOG CONTAINER -->

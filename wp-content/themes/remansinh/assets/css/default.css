@@ -3519,7 +3519,7 @@ textarea{max-width: 100%;}
 	position: relative;
 	margin-right: 17px;
 	float: left;
-	padding-bottom: 15px;
+	padding-bottom: 14px;
 }
 #comments input, #comments textarea{
 	-webkit-appearance:none;
@@ -3839,3 +3839,9 @@ div.wpcf7 img.ajax-loader{
 #content-panels{float: right !important;}
 .widget_siteorigin-panels-postloop .post-content{padding: 20px;}
 .fluid-width-video-wrapper{padding-top: 0px !important;}
+
+/* Add new style*/
+
+.single-post .post-content .featured-image {
+	display: none !important;
+}

@@ -30,10 +30,10 @@ $post=get_post();
                                     else { $att_ID = $post->ID; $att_url = $post->guid; }
                                     $att_title = (!empty(get_post($att_ID)->post_excerpt)) ? get_post($att_ID)->post_excerpt : get_the_title($att_ID);
                                     ?>
-                                    
-                                    <a href="<?php echo $att_url; ?>" class="cbp-lightbox">
+
+                                    <a href="<?php the_permalink(); ?>">
                                         <?php echo get_the_post_thumbnail(get_the_ID(), 'large', array('class' => 'image-blog')); ?>
-                                        <div class="hover-image-blog"></div>
+<!--                                        <div class="hover-image-blog"></div>-->
                                     </a>
 
                                 <?php endif; ?>
@@ -43,25 +43,25 @@ $post=get_post();
                                 <div class="video-thumb">
                                     <div class="video-wrapper">
                                         <?php
-                                $videoID = get_post_meta( get_the_ID(), 'video_id', true ); 
-                                echo wp_oembed_get(  $videoID ); 
+                                $videoID = get_post_meta( get_the_ID(), 'video_id', true );
+                                echo wp_oembed_get(  $videoID );
                                 ?> </div></div></div>
                                  <?php endif; ?>
-                                 
+
                                   <?php if (has_post_format('audio')) : ?>
                                  <div class="post-video">
                                 <div class="video-thumb">
                                     <div class="video-wrapper">
                                         <?php
-                                $audioID = get_post_meta( get_the_ID(), 'audio_id', true ); 
-                                echo wp_oembed_get(  $audioID ); 
+                                $audioID = get_post_meta( get_the_ID(), 'audio_id', true );
+                                echo wp_oembed_get(  $audioID );
 
                                 ?> </div></div></div>
                                  <?php endif; ?>
 
 
-                               
-                                
+
+
                             </div>
                             
                             <h2 class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>

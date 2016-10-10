@@ -16,53 +16,55 @@ if (!defined('ABSPATH')) {echo '<h1>Forbidden</h1>'; exit();} ?>
                                 <span class="author-quote"> - <?php echo esc_attr(get_post_meta( $post->ID, 'q_author', true )); ?></span>
                                 </div>
                                  <?php else : ?>
-                            <!-- Featured image -->
-                            <div class="featured-image">
 
-                                 <?php if (has_post_thumbnail() && (!is_single() || !is_page())) :
-                                    // Get attached file guid
-                                    $att = get_post_meta(get_the_ID(),'_thumbnail_id',true);
-                                    $thumb = get_post($att);
-                                    if (is_object($thumb)) { $att_ID = $thumb->ID; $att_url = $thumb->guid; }
-                                    else { $att_ID = $post->ID; $att_url = $post->guid; }
-                                    $att_title = (!empty(get_post($att_ID)->post_excerpt)) ? get_post($att_ID)->post_excerpt : get_the_title($att_ID);
-                                    ?>
-                                    
-                                    <a href="<?php echo $att_url; ?>" class="cbp-lightbox">
-                                        <?php echo get_the_post_thumbnail(get_the_ID(), 'large', array('class' => 'image-blog')); ?>
-                                        <div class="hover-image-blog"></div>
-                                    </a>
-
-                                <?php endif; ?>
-
-                                <?php if (has_post_format('video')) : ?>
-                                 <div class="post-video">
-                                <div class="video-thumb">
-                                    <div class="video-wrapper">
-                                        <?php
-                                $videoID = get_post_meta( $post->ID, 'video_id', true ); 
-                                echo wp_oembed_get(  $videoID ); 
-                                ?> </div></div></div>
-                                 <?php endif; ?>
-                                 
-                                  <?php if (has_post_format('audio')) : ?>
-                                 <div class="post-video">
-                                <div class="video-thumb">
-                                    <div class="video-wrapper">
-                                        <?php
-                                $audioID = get_post_meta( $post->ID, 'audio_id', true ); 
-                                echo wp_oembed_get(  $audioID ); 
-
-                                ?> </div></div></div>
-                                 <?php endif; ?>
-
-
-                               
-                                
-                            </div>
                             
                             <h2 class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-    
+                             <!-- Featured image -->
+
+                             <div class="featured-image">
+
+                                 <?php if (has_post_thumbnail() && (!is_single() || !is_page())) :
+                                     // Get attached file guid
+                                     $att = get_post_meta(get_the_ID(),'_thumbnail_id',true);
+                                     $thumb = get_post($att);
+                                     if (is_object($thumb)) { $att_ID = $thumb->ID; $att_url = $thumb->guid; }
+                                     else { $att_ID = $post->ID; $att_url = $post->guid; }
+                                     $att_title = (!empty(get_post($att_ID)->post_excerpt)) ? get_post($att_ID)->post_excerpt : get_the_title($att_ID);
+                                     ?>
+
+                                     <a href="<?php the_permalink(); ?>">
+                                         <?php echo get_the_post_thumbnail(get_the_ID(), 'large', array('class' => 'image-blog')); ?>
+<!--                                         <div class="hover-image-blog"></div>-->
+                                     </a>
+
+                                 <?php endif; ?>
+
+                                 <?php if (has_post_format('video')) : ?>
+                                     <div class="post-video">
+                                         <div class="video-thumb">
+                                             <div class="video-wrapper">
+                                                 <?php
+                                                 $videoID = get_post_meta( $post->ID, 'video_id', true );
+                                                 echo wp_oembed_get(  $videoID );
+                                                 ?> </div></div></div>
+                                 <?php endif; ?>
+
+                                 <?php if (has_post_format('audio')) : ?>
+                                     <div class="post-video">
+                                         <div class="video-thumb">
+                                             <div class="video-wrapper">
+                                                 <?php
+                                                 $audioID = get_post_meta( $post->ID, 'audio_id', true );
+                                                 echo wp_oembed_get(  $audioID );
+
+                                                 ?> </div></div></div>
+                                 <?php endif; ?>
+
+
+
+
+                             </div>
+
                             <div class="post-summary">
                                 <p>   
                                 <?php // If displaying a single post or a page
