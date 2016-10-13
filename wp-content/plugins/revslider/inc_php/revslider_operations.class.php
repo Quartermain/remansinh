@@ -69,6 +69,8 @@
 				"orange"=>"Orange Button",
 				"darkgrey"=>"Darkgrey Button",
 				"lightgrey"=>"White Button",
+				"btn-ansinh"=>"Ansinh-btn Button",
+				"btn-ansinh-fill"=>"Ansinh-btn Button",
 				"red-fill"=>"Red Button",
 				"green-fill"=>"Green Button",
 				"blue-fill"=>"Blue Button",

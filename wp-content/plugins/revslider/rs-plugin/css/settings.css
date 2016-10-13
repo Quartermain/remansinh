@@ -458,6 +458,13 @@ website:   	http://www.themepunch.com
 	color: #DD5353 !important;
 }
 
+.tp-button.btn-ansinh,.tp-button:hover.btn-ansinh,.purchase.btn-ansinh,.purchase:hover.btn-ansinh {
+	background-color: transparent;
+	border: 2px solid #6a2424;
+	-webkit-border-radius: 25px; -moz-border-radius: 25px; border-radius: 25px;
+	color: #6a2424 !important;
+}
+
 .tp-button.orange,.tp-button:hover.orange,.purchase.orange,.purchase:hover.orange {
 	background-color: transparent;
 	border: 2px solid #F19748;
@@ -492,6 +499,11 @@ website:   	http://www.themepunch.com
 	color: #fff !important;
 	background-color: #DD5353 !important;
 	border: 2px solid #DD5353;
+}
+.tp-button.btn-ansinh:hover{
+	color: #fff !important;
+	background-color: #6a2424 !important;
+	border: 2px solid #6a2424;
 }
 .tp-button.orange:hover{
 	color: #fff !important;
@@ -533,6 +545,13 @@ website:   	http://www.themepunch.com
 	color: #fff !important;
 }
 
+.tp-button.btn-ansinh-fill,.tp-button:hover.btn-ansinh-fill{
+	background-color: #6a2424;
+	border: 2px solid #6a2424;
+	-webkit-border-radius: 25px; -moz-border-radius: 25px; border-radius: 25px;
+	color: #fff !important;
+}
+
 .tp-button.orange-fill,.tp-button:hover.orange-fill{
 	background-color: #F19748;
 	border: 2px solid #F19748;
@@ -565,6 +584,10 @@ website:   	http://www.themepunch.com
 .tp-button.red-fill:hover{
 	background-color: #cb4646 !important;
 	border: 2px solid #cb4646;
+}
+.tp-button.btn-ansinh-fill:hover{
+	background-color: #6a2424 !important;
+	border: 2px solid #6a2424;
 }
 .tp-button.orange-fill:hover{
 	background-color: #e18c42 !important;
@@ -1549,7 +1572,7 @@ zoom: 1;
 	float: left;
 	padding: 15px 0 !important;
 }
-.list-buttons .tp-button.green:hover, .list-buttons .tp-button.blue:hover, .list-buttons .tp-button.red:hover, .list-buttons .tp-button.orange:hover, .list-buttons .tp-button.darkgrey:hover, .list-buttons .tp-button.lightgrey:hover{
+.list-buttons .tp-button.green:hover, .list-buttons .tp-button.blue:hover, .list-buttons .tp-button.red:hover, .list-buttons .tp-button.btn-ansinh:hover, .list-buttons .tp-button.orange:hover, .list-buttons .tp-button.darkgrey:hover, .list-buttons .tp-button.lightgrey:hover{
 	border: 2px solid #ededed !important;
 	color: #ededed !important;
 }

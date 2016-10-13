@@ -42,6 +42,8 @@ class SiteOrigin_Panels_Widget_Button extends SiteOrigin_Panels_Widget  {
 						'tp-button orange' => __('orange', 'siteorigin-panels'),
 						'tp-button darkgrey' => __('darkgrey', 'siteorigin-panels'),
 						'tp-button lightgrey' => __('lightgrey', 'siteorigin-panels'),
+						'tp-button btn-ansinh' => __('btn-ansinh', 'siteorigin-panels'),
+						'tp-button btn-ansinh-fill' => __('btn-ansinh filled', 'siteorigin-panels'),
 						'tp-button green-fill' => __('green filled', 'siteorigin-panels'),
 						'tp-button blue-fill' => __('blue filled', 'siteorigin-panels'),
 						'tp-button red-fill' => __('red filled', 'siteorigin-panels'),

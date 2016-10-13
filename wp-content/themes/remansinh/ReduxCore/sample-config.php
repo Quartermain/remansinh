@@ -450,7 +450,7 @@ if (!class_exists('Redux_Framework_sample_config')) {
                         'type'      => 'select',
                         'title'     => __('Theme Stylesheet', 'elano'),
                         'subtitle'  => __('Select an predefined color scheme.', 'elano'),
-                        'options'   => array('pink' => 'pink', 'emerald' => 'emerald', 'nature' => 'nature', 'ocean' => 'ocean', 'orange' => 'orange', 'red' => 'red', 'river' => 'river', 'silver' => 'silver', 'sun' => 'sun', 'turquoise' => 'turquoise'),
+                        'options'   => array('pink' => 'pink', 'emerald' => 'emerald', 'nature' => 'nature', 'ocean' => 'ocean', 'orange' => 'orange', 'red' => 'red', 'river' => 'river', 'silver' => 'silver', 'sun' => 'sun', 'turquoise' => 'turquoise', 'styleAnsinh' => 'styleAnsinh'),
                         'default'   => 'pink',
                     ),
                     
