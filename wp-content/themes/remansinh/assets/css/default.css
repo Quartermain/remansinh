@@ -3845,3 +3845,7 @@ div.wpcf7 img.ajax-loader{
 .single-post .post-content .featured-image {
 	display: none !important;
 }
+
+.woocommerce .title h2 {
+	font-size: 44px;
+}
